@@ -1,0 +1,21 @@
+# Secrets — never commit
+.env
+.streamlit/secrets.toml
+chroma/
+__pycache__/
+*.pyc
+# Local vector store
+chroma/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
